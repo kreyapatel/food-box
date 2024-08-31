@@ -1,0 +1,472 @@
+{
+    "foodCategories": [{
+            "category": "Burgers",
+            "categoryImageURL": "burger_category.png",
+            "items": [{
+                    "name": "Aloo Tikki Burger",
+                    "description": "A delicious burger made with spiced potato patties, fresh vegetables, and cheese.",
+                    "price": 49,
+                    "ingredients": ["aloo patties", "onion", "cheese", "lettuce", "tomato", "burger bun", "mayonnaise"],
+                    "imageURL": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png",
+                    "availability": true
+                },
+                {
+                    "name": "Veggie Burger",
+                    "description": "A hearty veggie burger with black beans, corn, and bell peppers.",
+                    "price": 59,
+                    "ingredients": ["black beans", "corn", "bell peppers", "onion", "cheese", "lettuce", "tomato", "burger bun"],
+                    "imageURL": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png",
+                    "availability": true
+                },
+                {
+                    "name": "Mushroom Swiss Burger",
+                    "description": "Grilled mushrooms and Swiss cheese on a fresh burger bun.",
+                    "price": 64,
+                    "ingredients": ["grilled mushrooms", "Swiss cheese", "lettuce", "tomato", "onion", "burger bun"],
+                    "imageURL": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png",
+                    "availability": true
+                },
+                {
+                    "name": "Spicy Bean Burger",
+                    "description": "A spicy bean patty with jalapenos, cheese, and fresh vegetables.",
+                    "price": 54,
+                    "ingredients": ["spicy bean patty", "jalapenos", "cheese", "lettuce", "tomato", "burger bun"],
+                    "imageURL": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png",
+                    "availability": true
+                },
+                {
+                    "name": "Chickpea Burger",
+                    "description": "A flavorful chickpea patty with fresh vegetables and tahini sauce.",
+                    "price": 49,
+                    "ingredients": ["chickpea patty", "lettuce", "tomato", "red onion", "burger bun", "tahini sauce"],
+                    "imageURL": "https://png.pngtree.com/png-clipart/20221001/ourmid/pngtree-fast-food-big-ham-burger-png-image_6244235.png",
+                    "availability": true
+                }
+            ]
+        },
+        {
+            "category": "Pizza",
+            "categoryImageURL": "pizza_category.png",
+            "items": [{
+                    "name": "Margherita Pizza",
+                    "description": "Classic Margherita pizza with tomato sauce, mozzarella, and basil.",
+                    "price": 69,
+                    "ingredients": ["tomato sauce", "mozzarella cheese", "basil", "pizza dough", "olive oil"],
+                    "imageURL": "https://media.istockphoto.com/id/521403691/photo/hot-homemade-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=PaISuuHcJWTEVoDKNnxaHy7L2BTUkyYZ06hYgzXmTbo=",
+                    "availability": true
+                },
+                {
+                    "name": "Veggie Pizza",
+                    "description": "A pizza loaded with fresh vegetables and mozzarella cheese.",
+                    "price": 79,
+                    "ingredients": ["tomato sauce", "mozzarella cheese", "bell peppers", "onions", "mushrooms", "olives", "pizza dough"],
+                    "imageURL": "https://media.istockphoto.com/id/521403691/photo/hot-homemade-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=PaISuuHcJWTEVoDKNnxaHy7L2BTUkyYZ06hYgzXmTbo=",
+                    "availability": true
+                },
+                {
+                    "name": "Mushroom Pizza",
+                    "description": "A delicious pizza topped with mushrooms, garlic, and thyme.",
+                    "price": 74,
+                    "ingredients": ["tomato sauce", "mozzarella cheese", "mushrooms", "garlic", "thyme", "pizza dough"],
+                    "imageURL": "https://media.istockphoto.com/id/521403691/photo/hot-homemade-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=PaISuuHcJWTEVoDKNnxaHy7L2BTUkyYZ06hYgzXmTbo=",
+                    "availability": true
+                },
+                {
+                    "name": "Spinach and Feta Pizza",
+                    "description": "A delightful pizza with spinach, feta cheese, and mozzarella.",
+                    "price": 84,
+                    "ingredients": ["tomato sauce", "mozzarella cheese", "spinach", "feta cheese", "pizza dough", "olive oil"],
+                    "imageURL": "https://media.istockphoto.com/id/521403691/photo/hot-homemade-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=PaISuuHcJWTEVoDKNnxaHy7L2BTUkyYZ06hYgzXmTbo=",
+                    "availability": true
+                },
+                {
+                    "name": "Four Cheese Pizza",
+                    "description": "A rich pizza with a blend of mozzarella, parmesan, gorgonzola, and ricotta cheeses.",
+                    "price": 89,
+                    "ingredients": ["tomato sauce", "mozzarella cheese", "parmesan cheese", "gorgonzola cheese", "ricotta cheese", "pizza dough"],
+                    "imageURL": "https://media.istockphoto.com/id/521403691/photo/hot-homemade-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=PaISuuHcJWTEVoDKNnxaHy7L2BTUkyYZ06hYgzXmTbo=",
+                    "availability": true
+                }
+            ]
+        },
+        {
+            "category": "Pasta",
+            "categoryImageURL": "pasta_category.png",
+            "items": [{
+                    "name": "Penne Arrabbiata",
+                    "description": "Spicy penne pasta in a rich tomato sauce with garlic and chili flakes.",
+                    "price": 59,
+                    "ingredients": ["penne pasta", "tomato sauce", "garlic", "chili flakes", "olive oil", "parsley"],
+                    "imageURL": "https://t3.ftcdn.net/jpg/02/71/89/10/360_F_271891053_cuzs6l2mWLfJQxawShjA46W4XaED9yhb.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Fettuccine Alfredo",
+                    "description": "Creamy fettuccine Alfredo with parmesan cheese and garlic.",
+                    "price": 69,
+                    "ingredients": ["fettuccine pasta", "heavy cream", "parmesan cheese", "butter", "garlic", "parsley"],
+                    "imageURL": "https://t3.ftcdn.net/jpg/02/71/89/10/360_F_271891053_cuzs6l2mWLfJQxawShjA46W4XaED9yhb.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Spaghetti Aglio e Olio",
+                    "description": "Simple yet flavorful spaghetti with garlic, olive oil, and red pepper flakes.",
+                    "price": 54,
+                    "ingredients": ["spaghetti", "garlic", "olive oil", "red pepper flakes", "parsley"],
+                    "imageURL": "https://t3.ftcdn.net/jpg/02/71/89/10/360_F_271891053_cuzs6l2mWLfJQxawShjA46W4XaED9yhb.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Pasta Primavera",
+                    "description": "Penne pasta with fresh vegetables and parmesan cheese.",
+                    "price": 74,
+                    "ingredients": ["penne pasta", "bell peppers", "zucchini", "carrots", "broccoli", "parmesan cheese", "olive oil"],
+                    "imageURL": "https://t3.ftcdn.net/jpg/02/71/89/10/360_F_271891053_cuzs6l2mWLfJQxawShjA46W4XaED9yhb.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Butternut Squash Ravioli",
+                    "description": "Ravioli filled with butternut squash and ricotta cheese, served with sage butter.",
+                    "price": 89,
+                    "ingredients": ["ravioli", "butternut squash", "ricotta cheese", "sage", "butter", "parmesan cheese"],
+                    "imageURL": "https://t3.ftcdn.net/jpg/02/71/89/10/360_F_271891053_cuzs6l2mWLfJQxawShjA46W4XaED9yhb.jpg",
+                    "availability": true
+                }
+            ]
+        },
+        {
+            "category": "Salads",
+            "categoryImageURL": "salad_category.png",
+            "items": [{
+                    "name": "Greek Salad",
+                    "description": "A refreshing salad with cucumber, tomato, red onion, feta cheese, and olives.",
+                    "price": 44,
+                    "ingredients": ["cucumber", "tomato", "red onion", "feta cheese", "olives", "olive oil", "oregano"],
+                    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/640px-Salad_platter.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Caesar Salad",
+                    "description": "Classic Caesar salad with romaine lettuce, croutons, and parmesan cheese.",
+                    "price": 49,
+                    "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"],
+                    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/640px-Salad_platter.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Caprese Salad",
+                    "description": "A simple salad with tomatoes, mozzarella cheese, and basil, drizzled with olive oil and balsamic vinegar.",
+                    "price": 54,
+                    "ingredients": ["tomatoes", "mozzarella cheese", "basil", "olive oil", "balsamic vinegar"],
+                    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/640px-Salad_platter.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Quinoa Salad",
+                    "description": "A hearty salad with quinoa, cherry tomatoes, cucumber, red onion, and feta cheese.",
+                    "price": 59,
+                    "ingredients": ["quinoa", "cherry tomatoes", "cucumber", "red onion", "feta cheese", "olive oil", "lemon juice"],
+                    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/640px-Salad_platter.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Kale and Avocado Salad",
+                    "description": "A nutritious salad with kale, avocado, cherry tomatoes, and sunflower seeds.",
+                    "price": 64,
+                    "ingredients": ["kale", "avocado", "cherry tomatoes", "sunflower seeds", "olive oil", "lemon juice"],
+                    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/640px-Salad_platter.jpg",
+                    "availability": true
+                }
+            ]
+        },
+        {
+            "category": "Wraps",
+            "categoryImageURL": "wrap_category.png",
+            "items": [{
+                    "name": "Falafel Wrap",
+                    "description": "A flavorful wrap with falafel, hummus, and fresh vegetables.",
+                    "price": 49,
+                    "ingredients": ["falafel", "hummus", "lettuce", "tomato", "cucumber", "wrap bread"],
+                    "imageURL": "https://www.superhealthykids.com/wp-content/uploads/2014/07/veggie-wrap-featured-image-square-1.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Veggie Wrap",
+                    "description": "A healthy wrap with bell peppers, onions, lettuce, tomato, and avocado.",
+                    "price": 44,
+                    "ingredients": ["bell peppers", "onions", "lettuce", "tomato", "avocado", "wrap bread"],
+                    "imageURL": "https://www.superhealthykids.com/wp-content/uploads/2014/07/veggie-wrap-featured-image-square-1.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Hummus and Veggie Wrap",
+                    "description": "A delicious wrap with hummus, carrot, cucumber, lettuce, and red cabbage.",
+                    "price": 44,
+                    "ingredients": ["hummus", "carrot", "cucumber", "lettuce", "red cabbage", "wrap bread"],
+                    "imageURL": "https://www.superhealthykids.com/wp-content/uploads/2014/07/veggie-wrap-featured-image-square-1.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Black Bean Wrap",
+                    "description": "A hearty wrap with black beans, corn, bell peppers, and onions.",
+                    "price": 49,
+                    "ingredients": ["black beans", "corn", "bell peppers", "onions", "lettuce", "wrap bread"],
+                    "imageURL": "https://www.superhealthykids.com/wp-content/uploads/2014/07/veggie-wrap-featured-image-square-1.jpg",
+                    "availability": true
+                },
+                {
+                    "name": "Grilled Veggie Wrap",
+                    "description": "A tasty wrap with grilled zucchini, bell peppers, and eggplant.",
+                    "price": 49,
+                    "ingredients": ["grilled zucchini", "grilled bell peppers", "grilled eggplant", "lettuce", "wrap bread"],
+                    "imageURL": "https://www.superhealthykids.com/wp-content/uploads/2014/07/veggie-wrap-featured-image-square-1.jpg",
+                    "availability": true
+                }
+            ]
+        },
+        {
+            "category": "Tacos",
+            "categoryImageURL": "tacos_category.png",
+            "items": [{
+                    "name": "Black Bean Tacos",
+                    "description": "Tasty tacos with black beans, corn, lettuce, tomato, and avocado.",
+                    "price": 54,
+                    "ingredients": ["black beans", "corn", "lettuce", "tomato", "avocado", "taco shells"],
+                    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEAfuTwe1cvywnKQiX9DxVIK2pmdrRacGq8A&s",
+                    "availability": true
+                },
+                {
+                    "name": "Vegetable Tacos",
+                    "description": "Delicious tacos with bell peppers, onions, zucchini, and lettuce.",
+                    "price": 59,
+                    "ingredients": ["bell peppers", "onions", "zucchini", "lettuce", "tomato", "taco shells"],
+                    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEAfuTwe1cvywnKQiX9DxVIK2pmdrRacGq8A&s",
+                    "availability": true
+                },
+                {
+                    "name": "Sweet Potato Tacos",
+                    "description": "Flavorful tacos with roasted sweet potatoes, black beans, and avocado.",
+                    "price": 59,
+                    "ingredients": ["roasted sweet potatoes", "black beans", "lettuce", "avocado", "taco shells"],
+                    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEAfuTwe1cvywnKQiX9DxVIK2pmdrRacGq8A&s",
+                    "availability": true
+                },
+                {
+                    "name": "Cauliflower Tacos",
+                    "description": "Tacos with roasted cauliflower, red cabbage, avocado, and lime.",
+                    "price": 59,
+                    "ingredients": ["roasted cauliflower", "red cabbage", "avocado", "lime", "taco shells"],
+                    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEAfuTwe1cvywnKQiX9DxVIK2pmdrRacGq8A&s",
+                    "availability": true
+                },
+                {
+                    "name": "Mushroom Tacos",
+                    "description": "Savory tacos with sautéed mushrooms, onions, and bell peppers.",
+                    "price": 54,
+                    "ingredients": ["sautéed mushrooms", "onions", "bell peppers", "lettuce", "taco shells"],
+                    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEAfuTwe1cvywnKQiX9DxVIK2pmdrRacGq8A&s",
+                    "availability": true
+                }
+            ]
+        }
+    ],
+    "userList": [{
+            "firstName": "Admin",
+            "lastName": "Verma",
+            "phoneNumber": "+91-8765432109",
+            "password": "Admin123",
+            "address": "456 Brigade Road, Bangalore, Karnataka",
+            "email": "admin.verma@example.com"
+        },
+        {
+            "firstName": "Aarav",
+            "lastName": "Sharma",
+            "phoneNumber": "+91-9876543210",
+            "password": "password123",
+            "address": "123 MG Road, Bangalore, Karnataka",
+            "email": "aarav.sharma@example.com"
+        },
+        {
+            "firstName": "Vivaan",
+            "lastName": "Verma",
+            "phoneNumber": "+91-8765432109",
+            "password": "password456",
+            "address": "456 Brigade Road, Bangalore, Karnataka",
+            "email": "vivaan.verma@example.com"
+        },
+        {
+            "firstName": "Ananya",
+            "lastName": "Iyer",
+            "phoneNumber": "+91-7654321098",
+            "password": "password789",
+            "address": "789 Residency Road, Bangalore, Karnataka",
+            "email": "ananya.iyer@example.com"
+        },
+        {
+            "firstName": "Diya",
+            "lastName": "Reddy",
+            "phoneNumber": "+91-6543210987",
+            "password": "password012",
+            "address": "101 MG Road, Hyderabad, Telangana",
+            "email": "diya.reddy@example.com"
+        },
+        {
+            "firstName": "Aryan",
+            "lastName": "Patel",
+            "phoneNumber": "+91-5432109876",
+            "password": "password345",
+            "address": "202 Banjara Hills, Hyderabad, Telangana",
+            "email": "aryan.patel@example.com"
+        },
+        {
+            "firstName": "Ishaan",
+            "lastName": "Gupta",
+            "password": "password678",
+            "address": "303 Jubilee Hills, Hyderabad, Telangana",
+            "email": "ishaan.gupta@example.com"
+        },
+        {
+            "firstName": "Saanvi",
+            "lastName": "Singh",
+            "phoneNumber": "+91-4321098765",
+            "password": "password901",
+            "address": "404 Connaught Place, New Delhi",
+            "email": "saanvi.singh@example.com"
+        },
+        {
+            "firstName": "Aditya",
+            "lastName": "Mishra",
+            "phoneNumber": "+91-3210987654",
+            "password": "password234",
+            "address": "505 Janpath, New Delhi",
+            "email": "aditya.mishra@example.com"
+        },
+        {
+            "firstName": "Riya",
+            "lastName": "Das",
+            "phoneNumber": "+91-2109876543",
+            "password": "password567",
+            "address": "606 Park Street, Kolkata, West Bengal",
+            "email": "riya.das@example.com"
+        },
+        {
+            "firstName": "Kabir",
+            "lastName": "Chatterjee",
+            "phoneNumber": "+91-1098765432",
+            "password": "password890",
+            "address": "707 Salt Lake, Kolkata, West Bengal",
+            "email": "kabir.chatterjee@example.com"
+        },
+        {
+            "firstName": "Aanya",
+            "lastName": "Nair",
+            "phoneNumber": "+91-9876543201",
+            "password": "password321",
+            "address": "808 Marine Drive, Mumbai, Maharashtra",
+            "email": "aanya.nair@example.com"
+        },
+        {
+            "firstName": "Vihaan",
+            "lastName": "Mehta",
+            "phoneNumber": "+91-8765432102",
+            "password": "password654",
+            "address": "909 Worli Sea Face, Mumbai, Maharashtra",
+            "email": "vihaan.mehta@example.com"
+        },
+        {
+            "firstName": "Anika",
+            "lastName": "Agarwal",
+            "password": "password987",
+            "address": "1010 Juhu Beach, Mumbai, Maharashtra",
+            "email": "anika.agarwal@example.com"
+        },
+        {
+            "firstName": "Reyansh",
+            "lastName": "Joshi",
+            "phoneNumber": "+91-7654321093",
+            "password": "password210",
+            "address": "1111 Andheri West, Mumbai, Maharashtra",
+            "email": "reyansh.joshi@example.com"
+        },
+        {
+            "firstName": "Mia",
+            "lastName": "Kapoor",
+            "phoneNumber": "+91-6543210984",
+            "password": "password543",
+            "address": "1212 Vasant Kunj, New Delhi",
+            "email": "mia.kapoor@example.com"
+        },
+        {
+            "firstName": "Arjun",
+            "lastName": "Singh",
+            "phoneNumber": "+91-5432109875",
+            "password": "password876",
+            "address": "1313 Hauz Khas, New Delhi",
+            "email": "arjun.singh@example.com"
+        },
+        {
+            "firstName": "Navya",
+            "lastName": "Kumar",
+            "password": "password109",
+            "address": "1414 Whitefield, Bangalore, Karnataka",
+            "email": "navya.kumar@example.com"
+        },
+        {
+            "firstName": "Kian",
+            "lastName": "Saxena",
+            "phoneNumber": "+91-4321098766",
+            "password": "password432",
+            "address": "1515 Koramangala, Bangalore, Karnataka",
+            "email": "kian.saxena@example.com"
+        },
+        {
+            "firstName": "Sara",
+            "lastName": "Rao",
+            "phoneNumber": "+91-3210987657",
+            "password": "password765",
+            "address": "1616 Hitech City, Hyderabad, Telangana",
+            "email": "sara.rao@example.com"
+        },
+        {
+            "firstName": "Aarohi",
+            "lastName": "Pillai",
+            "phoneNumber": "+91-2109876548",
+            "password": "password098",
+            "address": "1717 Madhapur, Hyderabad, Telangana",
+            "email": "aarohi.pillai@example.com"
+        },
+        {
+            "firstName": "Raghav",
+            "lastName": "Menon",
+            "phoneNumber": "+91-1098765439",
+            "password": "password321",
+            "address": "1818 South City, Kolkata, West Bengal",
+            "email": "raghav.menon@example.com"
+        },
+        {
+            "firstName": "Nia",
+            "lastName": "Mukherjee",
+            "password": "password654",
+            "address": "1919 Ballygunge, Kolkata, West Bengal",
+            "email": "nia.mukherjee@example.com"
+        },
+        {
+            "firstName": "Shaurya",
+            "lastName": "Reddy",
+            "phoneNumber": "+91-9876543200",
+            "password": "password987",
+            "address": "2020 Banjara Hills, Hyderabad, Telangana",
+            "email": "shaurya.reddy@example.com"
+        },
+        {
+            "firstName": "Myra",
+            "lastName": "Patil",
+            "phoneNumber": "+91-8765432103",
+            "password": "password210",
+            "address": "2121 Andheri East",
+            "email": "myra.patil@example.com"
+        }
+    ]
+
+
+}
